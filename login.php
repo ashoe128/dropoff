@@ -14,9 +14,15 @@
 	}
 ?>
 <form action="auth_user.php" method="post">
-Username: <input type="text" name="username" /><br />
-Password: <input type="password" name="password" /><br />
-<input type="submit" value="login" />
+<table bgcolor="#aaaaaa" cellspacing="1" cellpadding="3">
+<tr bgcolor="#ffffff">
+<td> Username: <input type="text" name="username" /><br /></td>
+<tr bgcolor="#ffffff">
+<td>Password: <input type="password" name="password" /><br /></td>
+<tr bgcolor="#ffffff">
+<td><input type="submit" value="Login" />
+<a href="http://ashoemaker.com/im4470/dropoff/register.php"> Register
+</td>
 </form>
 </body>
 </html>
